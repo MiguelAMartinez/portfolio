@@ -31,3 +31,12 @@ body {
 .li-nav-menu:hover {
 	background-color: #89bde5;
 }
+
+main {
+	position: absolute;
+	margin: auto;
+	left: 230px;
+	right: 0; 
+	text-align: center;
+	overflow: scroll;
+}
