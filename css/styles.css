@@ -10,7 +10,7 @@ body {
 }
 
 .nav-main {
-	width: 230px;
+	width: 220px;
 	height: 100%;
 	position: fixed;
 	background-color: #edf0f4;
@@ -35,7 +35,7 @@ body {
 main {
 	position: absolute;
 	margin: auto;
-	left: 230px;
+	left: 220px;
 	right: 0; 
 	text-align: center;
 	overflow: scroll;
@@ -53,13 +53,17 @@ main {
 .h1-header {
 	color: white;
 	font-size: 50px;
-	margin: 140px auto;
+	margin: auto;
 }
 
-.h2-header {
-	color: white;
+.subsection-main {
+	margin: auto;
+	max-width: 900px;
+	padding: 0 15px;
+}
+
+.h3-section {
 	font-size: 24px;
-	margin: -140px auto;
 }
 
 .section-main {
@@ -67,5 +71,22 @@ main {
 }
 
 .h2-section {
-	font-size: 30px;
+	font-size: 32px;
+}
+
+.p-section {
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.img-section {
+	margin: 10px 20px;
+	padding:1px;
+	border:1px solid #021a40;
+	background-color:#333;
+}
+
+.hr-section {
+	border-top: dotted 3px;
+	margin: 10px 0;	
 }
