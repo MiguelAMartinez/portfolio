@@ -91,3 +91,35 @@ main {
 	border-top: dotted 3px;
 	margin: 10px 0;	
 }
+
+@media only screen and (max-width: 810px) {
+	.img-section {
+		margin: 10px 0;
+	}
+
+	.nav-main {
+		width: 190px;
+	}
+
+	main {
+		left: 190px;
+	}
+
+	.ul-nav-menu {
+		font-size: 19px;
+	}    
+}
+
+@media only screen and (max-width: 510px) {
+	.nav-main {
+		width: 100px;
+	}
+
+	main {
+		left: 100px;
+	}
+
+	.ul-nav-menu {
+		font-size: 15px;
+	}    
+}
