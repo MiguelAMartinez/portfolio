@@ -39,3 +39,15 @@ $("#six").click(function() {
         scrollTop: $(".six").offset().top
     }, 1000);
 });
+
+$("#seven").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".seven").offset().top
+    }, 1000);
+});
+
+$("#eight").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".eight").offset().top
+    }, 1000);
+});
